@@ -1,9 +1,6 @@
 {
-  "database": {
-    "rules": "database.rules.json"
-  },
   "hosting": {
-    "public": "dist/ncs-pwa/browser",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -16,19 +13,7 @@
       }
     ]
   },
-  "emulators": {
-    "auth": {
-      "port": 9099
-    },
-    "database": {
-      "port": 9000
-    },
-    "hosting": {
-      "port": 5000
-    },
-    "ui": {
-      "enabled": true
-    },
-    "singleProjectMode": true
+  "database": {
+    "rules": "database.rules.json"
   }
 }
